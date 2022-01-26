@@ -1,0 +1,173 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #efefef;
+    color: #292929;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: #e0e0e0;
+    position: relative;
+}
+
+header h1 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+a {
+    text-decoration: none;
+    color: #666;
+  }
+
+#top-menu {
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+
+#top-menu ul {
+      margin-right: 20px;
+  }
+
+#top-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+#top-menu ul li a {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#main-banner {
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(./images/banner.png);
+    color: #fff;
+}
+
+#main-banner h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+
+#main-banner p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#main-banner p:last-child {
+    margin-top: 20px;
+}
+
+#main-banner p a {
+    font-size: 20px;
+    color: #fff;
+    width: 125px;
+    background: #638ccf;
+    padding: 7px;
+    text-shadow: 1px 1px 6px black;
+}
+
+.main-letter {
+    position: absolute;
+    text-align: right;
+    width: 1200px;
+    padding-right: 100px;
+}
+
+.main-letter p {
+    letter-spacing: 0.8px;
+}
+
+#contents {
+    width: 1200px;
+    height: 504px;
+    margin: 0 auto;
+}
+
+#contents .article {
+    width: 373px;
+    height: 504px;
+    margin-left: 20px;
+    text-align: center;
+    padding-left: 20px;
+    float: left;
+    padding-top: 28px;
+}
+
+#contents .article h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+#contents .article img {
+    margin-bottom: 10px;
+}
+
+#contents .article p {
+    text-align: left;
+    line-height: 29px;
+    font-size: 18px;
+}
+
+footer {
+    clear: both;
+    width: 1200px;
+    height: 100px;
+    background: #292929;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.container p  {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ccc;
+}
+
+.container p span {
+    margin-left: 13px;
+    margin-right: 12px;
+}
+
+.container p a {
+    color: #ccc;
+}
+
+.container .footer-menu {
+    margin-left: 20px;
+    float: left;
+    margin-top: 33px;
+}
+
+.container .sns {
+    float: right;
+    margin-right: 20px;
+    margin-top: 33px;
+}
+.container .sns a img {
+    margin-left: 10px;
+}
